@@ -480,3 +480,17 @@ img {
 .social-icons-item-footer {
 	display: flex;
 }
+.current::after {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background-color: var(--accent-color);
+	height: 4px;
+	width: 100%;
+	border-radius: 2px;
+}
+.current {
+	position: relative;
+}
